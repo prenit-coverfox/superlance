@@ -69,9 +69,9 @@ setup(name='superlance',
       include_package_data=True,
       zip_safe=False,
       install_requires=[
-            'supervisor',
+            #'supervisor',
             ],
-      tests_require=tests_require,
+      #tests_require=tests_require,
       test_suite='superlance.tests',
       entry_points = """\
       [console_scripts]
